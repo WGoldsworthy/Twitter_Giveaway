@@ -1,0 +1,12 @@
+todo.txt
+
+- Setup some gleam.io functionality
+	- This is a multi stage process as gleam giveaways provide lots of different entry methods
+		- Functionality for entering with twitter follows has been implemented. Need to fully test
+- Need to add infinite searching functionality. Currently takes a parameter in cmd line arguments or takes five results.
+	Can be achieved with repetitive searches, perhaps using the result_type: recent parameter. This may mean that some of the bigger ones can be missed if not in the window.
+- List out entered giveaways.
+- Functionality for checking direct messages or own mentions in tweets. This is to do with how do I check if I have won. Assuming that if a giveaway is won, they will mention my handle in a tweet or send a direct message to get in contact.
+- potential functionality for only entering giveaways that include keywords. (limit search to exact areas). Provide lists of keywords in different file
+- Setup functionality for going to external links. How do we deal with different sites own forms?
+- Need to time slice for gleam giveaways vs Follow/retweet/favourite giveaways. This is an issue due to getting the urls from the tweets and extended tweet_mode.

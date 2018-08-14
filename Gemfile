@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'twitter'
+gem 'selenium-webdriver'
+gem 'colorize'
+gem 'jquery'
