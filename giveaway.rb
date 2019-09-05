@@ -36,7 +36,7 @@ def set_up_client
 	end
 
 	# Set the chromedriver path
-	Selenium::WebDriver::Chrome.driver_path = "/Users/stevegoldsworthy/Ruby/chromedriver"
+	Selenium::WebDriver::Chrome::Service.driver_path = "./chromedriver"
 
 end
 
